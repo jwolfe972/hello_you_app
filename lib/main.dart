@@ -64,7 +64,9 @@ class _HelloYouState  extends State<MyHome>{
         padding: EdgeInsets.all(15.0),
         child: Column(children: <Widget> [
           TextField(
-
+            decoration: InputDecoration(
+              hintText: 'ex: John ',
+            ),
             onChanged: (String s){
 
               setState(() {
